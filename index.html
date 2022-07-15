@@ -263,7 +263,7 @@ tizpage.prototype.draw = function() {
 		ctx.font = "900 30px Times New Roman"; ctx.fillStyle = "#45f02b"; ctx.textAlign = "center";
 	    ctx.fillText(String(points),423,30);
 		
-		this.celebImage.src = 'celebs/' + this.name + "/" + this.name + String(2) +  '.png';
+		this.celebImage.src = 'celebs/' + this.name + "/" + this.name + String(3) +  '.png';
 		ctx.drawImage(this.celebImage,500,0,300,400);
 		
 		ctx.drawImage(tizpageWRAPPER,0,0,800,400);
@@ -304,7 +304,7 @@ tizpage.prototype.draw = function() {
    
      if (this.state == 3){
 		ctx.drawImage(bonus,0,0,800,400);
-	    this.celebImage.src = 'celebs/' + this.name + "/" + this.name + String(2) +  '.png';
+	    this.celebImage.src = 'celebs/' + this.name + "/" + this.name + String(4) +  '.png';
 		ctx.drawImage(this.celebImage,500,0,300,400);
 		ctx.drawImage(tizpageWRAPPER,0,0,800,400);
 		
